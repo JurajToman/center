@@ -3,15 +3,38 @@
 <head>
 <meta charset="utf-8">
 	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-	<meta content="width=device-width, initial-scale=1" name="viewport"/>
-	<title>Homepage</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Apply Now</title>
+<link href="main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="main.css" rel="stylesheet" type="text/css">
 	<link href="style_mob_menu.css" rel="stylesheet" type="text/css">
 	
+	
+	<script>
+	function openCity_2(evt, cityName) {
+	var i, tabcontent, tablinks;
+	document.getElementById("defaultOpen").click();
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+	
+	
+	</script>
 </head>
 
-<body>
+<body class="applynow-dots1">
     
   <!-- TOP BAR -->
     <nav class="bar">
@@ -22,7 +45,7 @@
                     <section class="radecek">
                         <ul class="navigation navigation-right list-inline pull-right">
                                 
-								<!--<li><a href="#" class="toplink">Home</a></li>-->
+								<li><a href="#" class="toplink">Home</a></li>
                                 <li><a href="about_section.html" class="toplink">About Us</a></li> <!-- class="top_new active" predtym -->
                                 <li><a href="Contact.html" class="toplink">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank" class="toplink">Forum</a></li>
@@ -274,156 +297,115 @@
 	
 
 
-
-    
 	
-     <!-- BANNER -->
+	
+
   
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="education_stu.html"><img src="education_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="courses.html"><img src="courses_banner.jpg"  class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="diagnostics.html"><img src="diagnostic_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center" class="dotline">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-  <!-- Next and previous buttons -->
-
-<br>
-
-
-
-  <!-- Next and previous buttons -->
+ 
+        
+        
+        
+    <hr class="ciara" id="oranzovaciara">
     
 
-
+      
+  <section class="tabis-section">
     
-    <!-- ABOUT SECTION -->
-    <div class="bodkybackground">
-    <section class="about-section-homepage">
-    <h1 class="about-nadpis-homepage">About Us</h1>
-        <p class="about-text-homepage">We offer studies, counseling, interviews, specially organized youth education (STU), clarification and upgrading in relation to the labor market and education, protected employment, network groups, special educational efforts and courses for parents and professionals.
+<div class="tab applynow-dots2" id="tab-oranzovy">
+	<button class="tablinks basic-btn-in-tab"><a href="https://forms.gle/GTf1DxJe7orkh5SZ7" target="_blank">Courses</a> </button> 
+	<button class="tablinks basic-btn-in-tab" onclick="openCity(event, 'ceny-aside')" id="defaultOpen"><a href="forms/diagnosticexa_form.docx" download>Diagnostic Investigation</a></button>
+	<button class="tablinks basic-btn-in-tab"><a href="forms/langugageexa_form.docx" download>Treatment of Anxiety / OCD</a></button>
+	<button class="tablinks basic-btn-in-tab"><a href="forms/psychofunction_form.docx" download>Psychological Functional Examination</a></button>
+	<button class="tablinks basic-btn-in-tab"><a href="forms/neuropsych_form.docx" download>Neuropsychological Examination</a></button>
+	<button class="tablinks basic-btn-in-tab"><a href="forms/langugageexa_form.docx" download>Examination of Language and Communication</a></button>
+	<button class="tablinks basic-btn-in-tab" onclick="openCity(event, 'couns-aside')">Counseling, Guidance and<br>Supervision</button>
+</div>
+
+        
+        <!-- Content -->
+        
+	  <article class="tab-texts">
+	  <!-- Courses / Enrollement -->
+	  
+<article id="ceny-aside" class="tabcontent">
+  <h3 class="heading orange-heading">Prices</h3>
+            
+	
+	<p class="paragraph-inside">Diagnostic examination (5 years and up): DKK 36,700 <br><br>
 
  
-<br><br>
-We organize holistic, very flexible courses and create space and development for the individual. We are focused on having a high level of information and putting a lot of energy into good cooperation with municipalities, relatives and others.
 
-</p>
+Diagnostic investigation (toddlers 0-4 years): DKK 29,500 <br><br>
 
-    </section>
-		
-		
-    <section class="review-ciara"></section>
-		
-		
-<section class="slideshow-container-reviews">
-
-<article class="myReviews fade">
-  
-
-  <div class="text">"When our boy got his autism diagnosis as a 16-year-old he was stuck in depression with eating disorder. The municipality tried several initiatives with educators and psychologists, but nothing helped. His condition worsened."<br><br><div class="numbertext">Parent</div></div>
-   
-</article>
-
-<article class="myReviews fade">
-  
-  
-  <div class="text">"The Center for Autism has embraced autistic people, like no one else, and creates a positive and constructive foundation that is essential for people with autism to develop and progress with their lives and development." <br><br><div class="numbertext">Parent</div>  </div>
-   
-</article>
-
-<article class="myReviews fade">
  
-  
-  <div class="text">"It's really good that you make networking groups so that the young person can get some social relationships and experiences with other people."    <br><br><div class="numbertext">Parent</div></div>
+
+Psychological functional assessment: DKK 25,000-36,700<br><br>
+
+ 
+
+Examination of language and communication: The course and price of the report are agreed individually, after which final agreement is submitted for signature.</p>
+	
+	<h4 class="heading-inside">Counseling, Guidance and Supervision</h4>
+	
+	<p class="paragraph-inside">Counseling / support interviews / supervision :<br>
+
+Parents / person with ASF: DKK 1,250 per person. session<br>
+
+Professionals (1-3 persons): NOK 1,250 per person. session<br>
+
+Professionals (4 or more persons): DKK 1,750 per person. session<br><br>
+
+ 
+
+Sexual Instruction:<br>
+
+Person with ASF: NOK 1,350 per person. session<br>
+
+Parents: DKK 1,350 per. session<br>
+
+Professionals (1-3 persons) NOK 1,350 per person. session<br>
+
+Professionals (4 or more persons): NOK 1,850 per person. session<br><br>
+
+ 
+
+Supervision to psychologists, psychiatrists and case handlers <br>
+1-2 persons with autopsychologist DKK 1,395 per person. hour <br>
+1-2 persons per specialist kr. hour<br><br>
+
+Group (3 or more) by autopsychologist DKK 1,695 per. hour <br>
+Group (3 or more) w / specialist DKK 1,850 per. hour<br><br>
+
+     
+
+One session equals 45 min / One hour equals 60 min. <br><br>
+
+ 
+
+If the advice does not take place at the Center for Autism, mileage allowance is added according to the applicable rate (currently DKK 3.54) and transport time (DKK 800, - per hour) (see further guidelines on the reference).</p>
+	
+	
+	
+	<h4 class="heading-inside">Reference</h4>
+	
+            <p class="paragraph-inside">Prior to study at the Center for Autism, a reference must be completed. It is important that this clearly describes the purpose of the study, the reference is signed by the payment authority and submitted to us together with any. relevant journal material (eg hospital papers, results of previous studies, school statements), after which we will contact as soon as possible. The course and price are then determined individually, and final agreement is sent for signature.<br><br>
+
+ 
+
+Municipalities, institutions etc. are typical requisites of psychological examinations, but everyone can request a study, but there are binding payment commitments.<br><br>
+
+				</p>
+ 
     
 </article>
+	  	  
+</article>
+	  
 
+	  </section>
 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
-
-</section>
-        </div>
-    
-		<section class="review-ciara"></section>
-    
 	
-	<!-- ZIG ZAG LAYOUT - ARTICLES -->
-	
-	
-<main class="zigzag-container">
-	
-	
-	<h1 class="articles-heading-HP">Academic Articles</h1>
-	
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli"><b>Autism and Sexuality</b></h1>
-      <p class="articles-on-HP">Sexuality for those on the spectrum can be a heated topic. We have a hard enough time talking about appropriate behaviour and boundaries around sex and sexuality even as adults, let alone to children who might have issues around general appropriate behaviour and boundaries to begin with. Common issues around inappropriate sexual behavior are: inappropriate touching, ...</p>
-      <button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="sexualitis.jpg" alt="sexuality" class="img-article-HP">
-    </div>
-  </article>
-</main>
-
-	<div class="divider divid-hide"></div>
-
-<!-- Clarity Section -->
-<main class="zigzag-container sib-hide">
-  <article class="riadok">
-    <div class="column-33">
-      <img src="siblingo.jpg" alt="siblingo" class="img-article-HP">
-    </div>
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Sibling Problems</h1>
-      <p class="articles-on-HP"> Raising a child with autism places some extraordinary demands on parents as individuals and on the family as a whole. Prime among these demands is the lack of enough hours in the day to do all one wishes. Specifically, the time involved in meeting the needs of a family member with autism may leave parents with little time for their other children. Many parents feel ...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-  </article>
-</main>
-
-	<div class="divider"></div>
-
-<!-- The App Section -->
-<main class="zigzag-container">
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Top 10 Autism Studies of 2018</h1>
-      <p class="articles-on-HP">Today Autism Speaks announced its annual selection of studies that most powerfully advance its mission of enhancing lives today and accelerating a spectrum of solutions for tomorrow. Autism Speaks science leadership and Medical and Scientific Advisory Committee made the selections from...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="research.jpg" class="img-article-HP" alt="research">
-    </div>
-  </article>
-</main>	
-
-	<!-- FOOTER -->
+<!-- FOOTER -->
 	
 <footer class="footer">    
                             
@@ -432,7 +414,7 @@ We organize holistic, very flexible courses and create space and development for
                         <article class="single_footer">
                             <h4>Page link</h4>
                             <ul>
-								
+								<li><a href="index.html">Home</a></li>
                                 <li><a href="about_section.html">About Us</a></li>
                                 <li><a href="Contact.html">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank">Forum</a></li>
@@ -487,33 +469,13 @@ We organize holistic, very flexible courses and create space and development for
    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="index_custom.js"></script>
 
-        <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-  
-            /* REVIEWS */
-            
     
-
-             var slidoIndex = 0;
-showReviews();
-
-function showReviews() {
-  var i;
-  var slido = document.getElementsByClassName("myReviews");
-  var doto = document.getElementsByClassName("doty");
-  for (i = 0; i < slido.length; i++) {
-    slido[i].style.display = "none";  
-  }
-  slidoIndex++;
-  if (slidoIndex > slido.length) {slidoIndex = 1}    
-  for (i = 0; i < doto.length; i++) {
-    doto[i].className = doto[i].className.replace(" activo", "");
-  }
-  slido[slidoIndex-1].style.display = "block";  
-  doto[slidoIndex-1].className += " activo";
-  setTimeout(showReviews, 8000); // Change image every X seconds
-}
-            
+    
+    <!-- JAVASCRIPT DROPDOWN -->
+    
+    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        
         /* DROPDOWN */
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
@@ -532,24 +494,19 @@ for (i = 0; i < dropdown.length; i++) {
         
         /* BANNER */
         
-      var slideIndex = 0;
+        var slideIndex = 0;
 showSlides();
 
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 8000); // Change image every X seconds
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
         
         /* TABY */
@@ -571,29 +528,8 @@ function showSlides() {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
         
-			
-			/* PREKLIKNUTIE */
-			
-			
-						function openCity_2(evt, cityName) {
-	var i, tabcontent, tablinks;
-	document.getElementById("defaultOpen").click();
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-	tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i = 0; i < tablinks.length; i++) {
-	tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " active";
-
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-			        
+        
+        
 </script>
     
     

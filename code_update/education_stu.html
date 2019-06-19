@@ -4,14 +4,38 @@
 <meta charset="utf-8">
 	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 	<meta content="width=device-width, initial-scale=1" name="viewport"/>
-	<title>Homepage</title>
+	<title>Education</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="main.css" rel="stylesheet" type="text/css">
 	<link href="style_mob_menu.css" rel="stylesheet" type="text/css">
 	
+	
+	
+	<script>
+	function openCity_2(evt, cityName) {
+	var i, tabcontent, tablinks;
+	document.getElementById("defaultOpen").click();
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+	
+	
+	</script>
 </head>
 
-<body>
+<body class="applynow-dots1">
     
   <!-- TOP BAR -->
     <nav class="bar">
@@ -22,7 +46,7 @@
                     <section class="radecek">
                         <ul class="navigation navigation-right list-inline pull-right">
                                 
-								<!--<li><a href="#" class="toplink">Home</a></li>-->
+								<li><a href="#" class="toplink">Home</a></li>
                                 <li><a href="about_section.html" class="toplink">About Us</a></li> <!-- class="top_new active" predtym -->
                                 <li><a href="Contact.html" class="toplink">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank" class="toplink">Forum</a></li>
@@ -273,157 +297,293 @@
 	
 	
 
-
-
-    
 	
-     <!-- BANNER -->
+	
+
   
-<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="education_stu.html"><img src="education_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
+	
+	
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="courses.html"><img src="courses_banner.jpg"  class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="diagnostics.html"><img src="diagnostic_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center" class="dotline">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-  <!-- Next and previous buttons -->
-
-<br>
-
-
-
-  <!-- Next and previous buttons -->
+  
+        
+        
+    <hr class="ciara">
     
 
-
+    <!--<hr class="ciara"> -->
+        
+  <section class="tabis-section">
     
-    <!-- ABOUT SECTION -->
-    <div class="bodkybackground">
-    <section class="about-section-homepage">
-    <h1 class="about-nadpis-homepage">About Us</h1>
-        <p class="about-text-homepage">We offer studies, counseling, interviews, specially organized youth education (STU), clarification and upgrading in relation to the labor market and education, protected employment, network groups, special educational efforts and courses for parents and professionals.
+<div class="tab">
+  <button class="tablinks dropdown-btn" onclick="openCity(event, 'daily-aside')">Daily Activity Offer (STU)<em class="fa fa-caret-down"></em></button>
+    <div class="dropdown-container-inside">
+    <a href="#" class="vtom" onclick="openCity(event, 'subjects-aside')">Subjects and Teaching</a>
+    <a href="#" class="vtom" onclick="openCity(event, 'scolarship-aside')">Scolarship</a>
+    <a href="#" class="vtom" onClick="openCity(event, 'intership-aside')">Intership</a>
+  </div>
+    
+    <button class="tablinks dropdown-btn">Practical Information<em class="fa fa-caret-down"></em></button>
+    <div class="dropdown-container-inside">
+    <a href="#" class="vtom" onclick="openCity(event, 'holidays-aside')">Holidays at STU</a>
+    <a href="#" class="vtom" onclick="openCity(event, 'protected-aside')">Protected Employment<em class="fa fa-caret-down sipkapodsublinkom"></em></a>
+        <a href="#" class="pod-vtom" onclick="openCity(event, 'ikea-aside')">IKEA Gentofte</a> 
+        <a href="#" class="pod-vtom" onclick="openCity(event, 'graphic-aside')">Graphic Workshop</a> 
+    <a href="#" class="vtom" onclick="openCity(event, 'endatstu-aside')">End at STU</a>      
+  </div>
+    
+    
+</div>
+
+        
+        <!-- Content -->
+        
+	  <article class="tab-texts">
+	  <!-- Daily Activity offer -->
+	  
+<article id="daily-aside" class="tabcontent">
+  <h3 class="heading">Welcome to our Youth Education (STU)</h3>
+            
+            <p class="paragraph-inside">STU - for normally gifted young people aged 16-25.<br><br> 
 
  
+
+The Center for Autism's youth education offers a three-year education for you 
+(STU - Specially Adapted Youth Education under Law 564).<br><br>
+
+Follow this link and read more about this type of youth education on the website of the Ministry of Children and Education<br><br>
+
+
+If you have any questions about this offer, please contact:<br>
+
+Ann Gjetrang, Head of Department: 23 38 38 95<br>
+
+Lene A. Cortzen, Department Secretary: 30 70 81 85<br><br>
+
+
+1st teaching year 2019/2020: Tuesday, August 6, 2019 </p>
+            
+    
+</article>
+	  
+	  
+	 <!-- SUBJECTS AND TEACHING -->
+	  
+	  <article id="subjects-aside" class="tabcontent">
+  <h3 class="heading">Subjects and Teaching</h3>
+            
+            <p class="paragraph-inside">We have approx. 5-6 teams pr. year with an average of 6 young people in each team.<br>
+
+The teams are mixed boys / girls. Each team has a common room, but teaching will also take place in other premises.<br><br>
+
+ 
+
+The STU is 840 hours a year distributed over 40 weeks.<br>
+
+Meeting time is Monday to Thursday at. 9.00-14.40 (2 modules before lunch and 2 modules after lunch) and Friday at. 9.00-12.30 (2 modules) - breaks are included in the form.<br>
+
+Some subjects you must have (compulsory subjects), while other subjects you can choose from (electives). We try to create all electives from year to year, but it depends on how many people choose it..</p>
+            
+            <h4 class="heading-inside">Mandatory subjects</h4>
+            
+            <p class="paragraph-inside">Bo-teaching<br>
+		Communication<br>
+		Body and health<br>
+		LIFE<br>
+		Mathematics<br>
+		Psychology<br>
+		Society and business<br>
+		Talk group<br></p>
+		  
+		  <h4 class="heading-inside">Electives</h4>
+            
+            <p class="paragraph-inside">Ball game<br>
+Board game<br>
+CS-GO<br>
+Extra Danish<br>
+English<br>
+Fitness<br></p>
+</article>
+	  
+	  <!-- SCOLARSHIP -->
+	  
+	  <article id="scolarship-aside" class="tabcontent">
+  <h3 class="heading">Scolarship - Demetrious Haracopos Legat</h3>
+		  <h4 class="heading-inside">Center for Autism and the Sofieskolen once a year awards the scholarship to a person and / or institution who, in their work with the autism area, is based on a practice that "every person has the right to be seen and heard."</h4><br>
+		  <p class="paragraph-inside">The scholarship aims to inspire and maintain the work of psychologist Demetrious Haracopos for people with autism for more than 40 years. Demetrious was the head of the Sofies School before becoming the initiator of and later the head of the Center for Autism. He had a special ability to inspire and motivate people around him, and his involvement benefited many.<br><br> Demetrious was an enthusiast in working with people with autism and is especially remembered for his respectful and engaging approach to the co-operation between parents and relatives of children with autism. He is an icon of a strong community and a common understanding between parents and professionals.<br><br>
+
+The scholarship is awarded, for example, on the basis of special activities for the parent group, the handling of problem-damaging behavior, new initiatives and / or inventions that can contribute to developing and helping to improve the quality of life and indepedence</p> 
+		  
+		  <h4 class="heading-inside">Facts</h4>
+		  
+		  <p class="paragraph-inside">Application deadline:   15 October 2018<br>
+
+Application amount: DKK 20,000, -<br>
+
+Send the application to: Center for Autism, Herlev Hovedgade 199, 2730 Herlev</p>
+		  
+		  
+</article>
+	  
+	  <!-- Intership -->
+	  
+	  <article id="intership-aside" class="tabcontent">
+  <h3 class="heading">Intership at STU</h3>
+		  <p class="paragraph-inside">As a starting point, all young people who attend a STU course must be in an internship. But we will of course take individual considerations to the extent that is relevant.<br><br>
+
+ 
+
+Internships must contribute to meeting the objectives of the education plan (Act 564, §6, subsection 3).<br><br>
+
+ 
+
+Organization of practices is based on<br><br>
+
+- wishes, needs, resources, etc. <br>
+- internship interviews with the young person (from the 2nd year)<br><br>
+Together with the young person, the business consultant reviews the introduction of structure and working conditions in a workplace. Work is done on strategies for support in internships / business life - and with the individual's recognition of the need for such.<br><br>
+
+ 
+
+Furthermore, the need for compensatory measures in the working environment will be identified and described.</p>            
+</article>
+	  
+	  
+	  <!-- PRACTICAL INFORMATION -->
+	  
+	  <article id="practical-aside" class="tabcontent">
+		  <!--
+  <h3 class="heading">Practical information for students/parents</h3>
+		  <p class="paragraph-inside">There you can find pracitical information about studying, holidays,....</p> -->           
+</article>
+	  
+	  
+	   <!-- Holidays -->
+	  
+	  <article id="holidays-aside" class="tabcontent">
+  <h3 class="heading">Holidays for 2018/2019</h3>
+		  <p class="paragraph-inside">Educational day: Monday 10 September<br>
+Autumn holiday: Saturday, October 13 - Sunday, October 21st<br>
+Christmas Holiday: Saturday, December 22 - Wednesday, January 2<br></p>            
+</article>
+	  
+	  
+	  <!-- Protected employment -->
+	  
+	  <div id="protected-aside" class="tabcontent">
+  <h3 class="heading">Protected Employment § 103/104</h3>
+            
+            <p class="paragraph-inside">The business center offers several different types of protected employment in accordance with sections 103 and 104 (services and activities). The goal of them is to offer young people / adults with a neurodevelopmental disorder the opportunity to have a working day and a work or daily meaningful activities, that can be:</p>
+            
+            <h4 class="heading-inside">Protected employment in our internal workshops:</h4>
+            
+            <p class="paragraph-inside">Photo / film, magazine editing, Computer / IT, Service, Café.</p>
+		  
+		  <h4 class="heading-inside">Protected employment in job team:</h4>
+            
+            <p class="paragraph-inside">Eg. IKEA</p>
+		  
+		  <h4 class="heading-inside">Activity and social activities:</h4>
+		  
+		  <p class="paragraph-inside">Eg. Music</p>
+		  
+		  <p class="paragraph-inside">The target group in the protected employment is young / adults with neurological developmental disorder who have been awarded a pension and who have a greater support need in relation to being in a workplace in order to be able to fit a job or to be able to participate in activities. The participant, when affiliated with the internal and external protected employment, will be paid a small wage earner by the Business Center.<br><br>
+
+ 
+
+It is important that the participants, where they are affiliated, feel included and that they feel that they are part of the workplace they are affiliated with.<br><br>
+
+ 
+
+In all events, participants in their working day are associated with a business instructor who is responsible for their well-being. The business instructor has the opportunity to support or assist if, during the day, challenges arise that the participant does not manage to solve himself.<br><br>
+
+ 
+
+The protected employment is based on the individual's resources and needs. The days are built around clarity and predictability.</p>
+</div>
+	  
+	  <!-- IKEA -->
+	  
+	  <article id="ikea-aside" class="tabcontent">
+  <h3 class="heading">Ikea Gentofte</h3>
+		  <h4 class="heading-inside">The seats are offered to young people / grow with an autism spectrum disorder as protected employment §103 or as a resource, upgrading or competence course. </h4><br>
+		  <p class="paragraph-inside">It is a prerequisite that the participants like to be on an active and sometimes busy workplace, and that to meet at. 8 am in the morning is not an obstacle. 
+One should also be able to have customers in IKEA who will also be around one when working. <br><br>
+
+There is a job team associated with educational staff from the Center for Autism, who works in the team and who organizes the individual's and the team's different tasks.<br><br>
+
+The working day is structured according to a specific structure, which also applies to the individual tasks. Many of the tasks are carried out independently after thorough training or together with a partner. Fixed tasks that the team takes care of include: filling of goods and bags at the cash register, filling goods in the bistro and filling up the store with catalogs, pencils and measuring tape. <br><br>
+
+We emphasize an appreciative pedagogy with respect and understanding for the individual. We make a lot of sense that there is a good and informal atmosphere, where you can laugh and enjoy together in a safe community in the team. </p>            
+</article>
+	  
+	  <!-- Graphic Workshop -->
+	  
+	  <article id="graphic-aside" class="tabcontent">
+  <h3 class="heading">Graphic Workshop</h3>
+		  <h4 class="heading-inside">Graphic workshop for begginers at STU</h4><br>
+		  <p class="paragraph-inside">The workshop is for young people / adults who have an autism spectrum disorder / Asperger's syndrome and who like to be creative. There is a focus on creative and personal development, experiences and togetherness.<br><br>
+
+ 
+
+Our starting point is that the participants get the opportunity to gain a greater self-insight, a better self-esteem and a good self-confidence through meaningful activities.<br><br>
+
+ 
+
+There is the opportunity to meet other young people, which the participant can mirror in and get good and positive experiences with.<br><br>
+
+We emphasize an appreciative pedagogy with respect and understanding for the individual. We do a lot of that there is a good and informal atmosphere, where you can laugh and enjoy together in a safe community. Where there is the opportunity to promote fellowship and community in the group as well as build friendships and networks.
 <br><br>
-We organize holistic, very flexible courses and create space and development for the individual. We are focused on having a high level of information and putting a lot of energy into good cooperation with municipalities, relatives and others.
-
-</p>
-
-    </section>
-		
-		
-    <section class="review-ciara"></section>
-		
-		
-<section class="slideshow-container-reviews">
-
-<article class="myReviews fade">
-  
-
-  <div class="text">"When our boy got his autism diagnosis as a 16-year-old he was stuck in depression with eating disorder. The municipality tried several initiatives with educators and psychologists, but nothing helped. His condition worsened."<br><br><div class="numbertext">Parent</div></div>
-   
-</article>
-
-<article class="myReviews fade">
-  
-  
-  <div class="text">"The Center for Autism has embraced autistic people, like no one else, and creates a positive and constructive foundation that is essential for people with autism to develop and progress with their lives and development." <br><br><div class="numbertext">Parent</div>  </div>
-   
-</article>
-
-<article class="myReviews fade">
  
-  
-  <div class="text">"It's really good that you make networking groups so that the young person can get some social relationships and experiences with other people."    <br><br><div class="numbertext">Parent</div></div>
-    
+
+We offer activities within: <br><br>
+
+ 
+
+Graphical work<br>
+Different handwork<br>
+Drawing<br>
+ 
+
+The workshop is open from 10am. 9:00 to 14:00 Tuesday and Wednesday</p>
 </article>
+	  
+	  
+	  <!-- End at STU -->
+        
+<article id="endatstu-aside" class="tabcontent">
+  <h3 class="heading">End at STU (release)</h3>
+            
+            <p class="paragraph-inside">At the beginning of your 3rd STU year, we will prepare a plan for release. We write the plan in cooperation with you, relevant relatives, your uu supervisor and municipal case officer.<br><br>
 
+ 
 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
+The three-year youth education with us must be completed within five years. This means that you can interrupt the course for a total of two years. A possible break in the STU is agreed with your contact person at the youth education and your UU supervisor.<br><br>
 
-</section>
-        </div>
-    
-		<section class="review-ciara"></section>
-    
+ 
+
+We hold a final status meeting a few months before you stop, so we ensure that there is a plan for what you need after finishing STU.<br><br>
+
+ 
+
+At the end of the program, we design a certificate of competence that describes your professional, practical and personal competencies.</p>
+            
+           
+</article>
+	  
+</article>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+	  </section>
+	  
 	
-	<!-- ZIG ZAG LAYOUT - ARTICLES -->
-	
-	
-<main class="zigzag-container">
-	
-	
-	<h1 class="articles-heading-HP">Academic Articles</h1>
-	
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli"><b>Autism and Sexuality</b></h1>
-      <p class="articles-on-HP">Sexuality for those on the spectrum can be a heated topic. We have a hard enough time talking about appropriate behaviour and boundaries around sex and sexuality even as adults, let alone to children who might have issues around general appropriate behaviour and boundaries to begin with. Common issues around inappropriate sexual behavior are: inappropriate touching, ...</p>
-      <button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="sexualitis.jpg" alt="sexuality" class="img-article-HP">
-    </div>
-  </article>
-</main>
-
-	<div class="divider divid-hide"></div>
-
-<!-- Clarity Section -->
-<main class="zigzag-container sib-hide">
-  <article class="riadok">
-    <div class="column-33">
-      <img src="siblingo.jpg" alt="siblingo" class="img-article-HP">
-    </div>
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Sibling Problems</h1>
-      <p class="articles-on-HP"> Raising a child with autism places some extraordinary demands on parents as individuals and on the family as a whole. Prime among these demands is the lack of enough hours in the day to do all one wishes. Specifically, the time involved in meeting the needs of a family member with autism may leave parents with little time for their other children. Many parents feel ...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-  </article>
-</main>
-
-	<div class="divider"></div>
-
-<!-- The App Section -->
-<main class="zigzag-container">
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Top 10 Autism Studies of 2018</h1>
-      <p class="articles-on-HP">Today Autism Speaks announced its annual selection of studies that most powerfully advance its mission of enhancing lives today and accelerating a spectrum of solutions for tomorrow. Autism Speaks science leadership and Medical and Scientific Advisory Committee made the selections from...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="research.jpg" class="img-article-HP" alt="research">
-    </div>
-  </article>
-</main>	
-
-	<!-- FOOTER -->
+<!-- FOOTER -->
 	
 <footer class="footer">    
                             
@@ -432,7 +592,7 @@ We organize holistic, very flexible courses and create space and development for
                         <article class="single_footer">
                             <h4>Page link</h4>
                             <ul>
-								
+								<li><a href="index.html">Home</a></li>
                                 <li><a href="about_section.html">About Us</a></li>
                                 <li><a href="Contact.html">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank">Forum</a></li>
@@ -487,33 +647,14 @@ We organize holistic, very flexible courses and create space and development for
    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="index_custom.js"></script>
 
-        <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-  
-            /* REVIEWS */
-            
+
+	
+
+    <!-- JAVASCRIPT DROPDOWN -->
     
-
-             var slidoIndex = 0;
-showReviews();
-
-function showReviews() {
-  var i;
-  var slido = document.getElementsByClassName("myReviews");
-  var doto = document.getElementsByClassName("doty");
-  for (i = 0; i < slido.length; i++) {
-    slido[i].style.display = "none";  
-  }
-  slidoIndex++;
-  if (slidoIndex > slido.length) {slidoIndex = 1}    
-  for (i = 0; i < doto.length; i++) {
-    doto[i].className = doto[i].className.replace(" activo", "");
-  }
-  slido[slidoIndex-1].style.display = "block";  
-  doto[slidoIndex-1].className += " activo";
-  setTimeout(showReviews, 8000); // Change image every X seconds
-}
-            
+    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        
         /* DROPDOWN */
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
@@ -532,24 +673,19 @@ for (i = 0; i < dropdown.length; i++) {
         
         /* BANNER */
         
-      var slideIndex = 0;
+        var slideIndex = 0;
 showSlides();
 
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 8000); // Change image every X seconds
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
         
         /* TABY */
@@ -571,29 +707,7 @@ function showSlides() {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
         
-			
-			/* PREKLIKNUTIE */
-			
-			
-						function openCity_2(evt, cityName) {
-	var i, tabcontent, tablinks;
-	document.getElementById("defaultOpen").click();
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-	tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i = 0; i < tablinks.length; i++) {
-	tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " active";
-
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-			        
+        
 </script>
     
     

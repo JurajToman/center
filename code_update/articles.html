@@ -3,15 +3,38 @@
 <head>
 <meta charset="utf-8">
 	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-	<meta content="width=device-width, initial-scale=1" name="viewport"/>
-	<title>Homepage</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Articles</title>
+<link href="main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="main.css" rel="stylesheet" type="text/css">
 	<link href="style_mob_menu.css" rel="stylesheet" type="text/css">
 	
+	
+	<script>
+	function openCity_2(evt, cityName) {
+	var i, tabcontent, tablinks;
+	document.getElementById("defaultOpen").click();
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+	
+	
+	</script>
 </head>
 
-<body>
+<body class="applynow-dots1">
     
   <!-- TOP BAR -->
     <nav class="bar">
@@ -22,7 +45,7 @@
                     <section class="radecek">
                         <ul class="navigation navigation-right list-inline pull-right">
                                 
-								<!--<li><a href="#" class="toplink">Home</a></li>-->
+								<li><a href="#" class="toplink">Home</a></li>
                                 <li><a href="about_section.html" class="toplink">About Us</a></li> <!-- class="top_new active" predtym -->
                                 <li><a href="Contact.html" class="toplink">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank" class="toplink">Forum</a></li>
@@ -273,157 +296,121 @@
 	
 	
 
-
-
-    
 	
-     <!-- BANNER -->
+	
+
   
-<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="education_stu.html"><img src="education_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
+	
+	
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="courses.html"><img src="courses_banner.jpg"  class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="diagnostics.html"><img src="diagnostic_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center" class="dotline">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-  <!-- Next and previous buttons -->
-
-<br>
-
-
-
-  <!-- Next and previous buttons -->
+  
+        
+        
+    <hr class="ciara">
     
 
-
+    <!--<hr class="ciara"> -->
+        
+  <section class="tabis-section">
     
-    <!-- ABOUT SECTION -->
-    <div class="bodkybackground">
-    <section class="about-section-homepage">
-    <h1 class="about-nadpis-homepage">About Us</h1>
-        <p class="about-text-homepage">We offer studies, counseling, interviews, specially organized youth education (STU), clarification and upgrading in relation to the labor market and education, protected employment, network groups, special educational efforts and courses for parents and professionals.
+<div class="tab">
+  <button class="tablinks  basic-btn-in-tab" onclick="openCity(event, 'sexuality-aside')">Autism and Sexuality</button>
+	<button class="tablinks  basic-btn-in-tab" onclick="openCity(event, 'siblings-aside')">Sibling Problems</button>
+	<button class="tablinks  basic-btn-in-tab"><a href="https://www.autismspeaks.org/news/autism-speaks-names-top-ten-autism-studies-2018" target="_blank">Top 10 Autism Studies</a></button>
+    
+</div>
 
- 
-<br><br>
-We organize holistic, very flexible courses and create space and development for the individual. We are focused on having a high level of information and putting a lot of energy into good cooperation with municipalities, relatives and others.
+        
+        <!-- Content -->
+        
+	  <article class="tab-texts">
+	  <!-- Sexuality -->
+	  
+<article id="sexuality-aside" class="tabcontent">
+  <h3 class="heading">Autism and Sexuality</h3>
+	
+	<a href="https://www.centerforautisme.dk/media/152149/autisme_og_seksualitet.pdf" target="_blank" class="download-article">Print the article</a>
+            
+            <p class="paragraph-inside">Sexuality for those on the spectrum can be a heated topic. We have a hard enough time talking about appropriate behaviour and boundaries around sex and sexuality even as adults, let alone to children who might have issues around general appropriate behaviour and boundaries to begin with. Common issues around inappropriate sexual behavior are: inappropriate touching of others, excessive masturbation, masturbating in public, dangerous forms of masturbation, masturbation that doesn’t result in climax increasing frustration, public nudity, discussion of inappropriate topics at inappropriate times, and a lack of knowledge on how to navigate sexual feelings and urges. So how do we deal with growing hormonal feelings and establish ground-rules for children on the spectrum?</p>
+            
+	<h4 class="heading-inside">Yes it’s uncomfortable, but this is just another skill set you need to help your child master</h4>
+	
+			<p class="paragraph-inside">Sexuality and masturbation are taboo subjects in our society, but like many social skills they need to be taught to our kids on the spectrum explicitly. Try not to be embarrassed about having to deal with these subjects in a more head-on way then you might be comfortable with. Like toileting, sexuality is a very important skill to master in order for a child with ASD to find future independence and be included in the world around them.</p>
+	
+			<h4 class="heading-inside">Start Early</h4>
+	
+			<p class="paragraph-inside">Start teaching sexuality early. Also “think it forward”. What I mean by this is it can be cute to let a preschooler run around naked when at home, but what happens when this becomes a habit that is hard to break as the child ages? I know someone who made this mistake with her son, allowing him to be in underwear and a T-shirt when he was at home. Now the rule is pants are on until it’s time for bed. There was too much self-touching with just underwear on.</p>
+	
+			<h4 class="paragraph-inside">Look for teachable moments and use appropriate language</h4>
+	
+			<p class="paragraph-inside">Look for teachable moments rather than sitting down and having “the sex talk”. Use correct terminology and forgo the cute words like willy and wee-wee. The initial reaction you have to questions and statements from the individual is critical in creating an open dialogue. Try to remain non-judgemental. Communicate with the team around the person with ASD, letting them know family values, religious beliefs, and rules. There is a misconception that talking about sexual feelings will create them; this is untrue. Sexuality is a normal part of being human, disabled or not.</p>
+	
+			<h4 class="paragraph-inside">Teach rules and skills</h4>
+	
+			<p class="paragraph-inside">For children that are concrete thinkers, teach rules and skills. Many individuals with ASD follow rules well and understand those types of boundaries. Make sure everyone who works with that child knows the established rules as well. You can teach the “why” behind the rule if the child is at a higher social-cognitive level. Keep in mind the cognitive level when teaching concepts. Does the person understand abstract concepts? Can they apply what they’ve learned in books to real life? Think about how the person learns best: using computers, through visuals, reading, video modelling etc.</p>
+	
+			<h4 class="paragraph-inside">How to deal with masturbation?</h4>
+	
+			<p class="paragraph-inside">Let’s talk about masturbation, one of the frequent concerns surrounding sexuality. Be specific about when and where masturbation can happen. If you say it’s OK in the bathroom, the person with autism may take that to mean any bathroom (school, mall, grandma’s house). Say which bathroom is fine and which ones are off limits. Same goes for bedrooms – which ones, with the door closed, and shades drawn if the window faces the street. When can masturbation take place? What materials can be involved (i.e. lubricant, ejaculating into a towel).<br><br>
 
-</p>
+Do some detective work on when masturbation is a problem. If it’s attempted at school or work, is it to avoid a task or seek attention? Recognize when it happens and see if it occurs within the context of another activity. Teach the rules around masturbation and reinforce behavior that you want instead of masturbation when it isn’t appropriate. Consider clothing modifications like belting pants, no sweat pants, and check for medical problems if masturbation is occurring frequently.<br><br>
 
-    </section>
-		
-		
-    <section class="review-ciara"></section>
-		
-		
-<section class="slideshow-container-reviews">
-
-<article class="myReviews fade">
-  
-
-  <div class="text">"When our boy got his autism diagnosis as a 16-year-old he was stuck in depression with eating disorder. The municipality tried several initiatives with educators and psychologists, but nothing helped. His condition worsened."<br><br><div class="numbertext">Parent</div></div>
-   
-</article>
-
-<article class="myReviews fade">
-  
-  
-  <div class="text">"The Center for Autism has embraced autistic people, like no one else, and creates a positive and constructive foundation that is essential for people with autism to develop and progress with their lives and development." <br><br><div class="numbertext">Parent</div>  </div>
-   
-</article>
-
-<article class="myReviews fade">
- 
-  
-  <div class="text">"It's really good that you make networking groups so that the young person can get some social relationships and experiences with other people."    <br><br><div class="numbertext">Parent</div></div>
+For young people that are sexually frustrated, provide assistance in the form of instructional how to videos, lubricants, or appropriate sex toys. Provide alternative sensory input such as deep pressure or a tactile activity like a stress ball. Use a “how to” visual task breakdown of masturbation with pic symbols showing the steps involved. An OT should be able to provide some ideas.</p>
     
 </article>
+	  
+	  
+	 <!-- Siblings-->
+	  
+	  <article id="siblings-aside" class="tabcontent">
+  <h3 class="heading">Sibling Problems</h3>
+            
+		  <a href="https://www.centerforautisme.dk/media/213864/N%C3%A5r%20b%C3%B8rn%20p%C3%A5tager%20sig%20for%C3%A6ldrerollen.pdf" target="_blank" class="download-article">Print the article</a>
+            <p class="paragraph-inside">Raising a child with autism places some extraordinary demands on parents as individuals and on the family as a whole. Prime among these demands is the lack of enough hours in the day to do all one wishes. Specifically, the time involved in meeting the needs of a family member with autism may leave parents with little time for their other children.<br><br>
 
+Many parents feel that even as they do all they can for their child with autism, they are always struggling with how best to respond to the needs of the family as a whole. They say that although their own life as an individual may be put “on hold” and a couple may share an understanding of the need to make sacrifices on behalf of their child with autism, few parents are willing to make that same demand of other children in the family. As a result, there is a continual tension between the needs of the child with autism and those of the other children.<br><br>
 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
+This section offers suggestions to parents about ways to help the other children in the family cope gracefully and effectively with the experience of having a brother or sister with autism. Research indicates that the majority of brothers and sisters of children with autism cope well with their experiences. That does not mean, however, that they do not encounter special challenges in learning how to deal with a sibling who has autism or a related disorder.<br><br>
 
-</section>
-        </div>
-    
-		<section class="review-ciara"></section>
-    
+There are special demands on these siblings, and learning to manage these demands will make their childhood easier and will teach them skills that will make them more effective and resilient adults. The most important teachers of these coping skills are a child’s mother and father. The gifts you give to your youngsters in childhood will serve them immediately and in all the years ahead. Parents: Click here for important information and practical suggestions for helping and supporting siblings.</p>
+            
+            <h4 class="heading-inside">Sources of Stress for Siblings</h4>
+            
+            <p class="paragraph-inside">Not all siblings will experience these stressful issues, but here are some to be aware of:<br><br>
+
+- Embarrassment around peers; jealousy regarding amount of time parents spend with their brother/sister<br>
+- Frustration over not being able to engage or get a response from their brother/sister<br>
+- Being the target of aggressive behaviors<br>
+- Trying to make up for the deficits of their brother/sister<br>
+- Concern regarding their parents’ stress and grief<br>
+- Concern over their role in future caregiving<br><br>
+				
+Many of the suggestions provided below are things parents can do within the family to help a child understand what autism is all about, to improve interactions among the children in the family, and to ensure brothers and sisters grow up feeling they have benefited from the love and attention we all need.</p><br>
+		 
+</article>
+	  
+	  
+	  
+	  
+	  
+	   
+	    
+	  
+	  
+</article>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+	  </section>
+	  
 	
-	<!-- ZIG ZAG LAYOUT - ARTICLES -->
-	
-	
-<main class="zigzag-container">
-	
-	
-	<h1 class="articles-heading-HP">Academic Articles</h1>
-	
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli"><b>Autism and Sexuality</b></h1>
-      <p class="articles-on-HP">Sexuality for those on the spectrum can be a heated topic. We have a hard enough time talking about appropriate behaviour and boundaries around sex and sexuality even as adults, let alone to children who might have issues around general appropriate behaviour and boundaries to begin with. Common issues around inappropriate sexual behavior are: inappropriate touching, ...</p>
-      <button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="sexualitis.jpg" alt="sexuality" class="img-article-HP">
-    </div>
-  </article>
-</main>
-
-	<div class="divider divid-hide"></div>
-
-<!-- Clarity Section -->
-<main class="zigzag-container sib-hide">
-  <article class="riadok">
-    <div class="column-33">
-      <img src="siblingo.jpg" alt="siblingo" class="img-article-HP">
-    </div>
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Sibling Problems</h1>
-      <p class="articles-on-HP"> Raising a child with autism places some extraordinary demands on parents as individuals and on the family as a whole. Prime among these demands is the lack of enough hours in the day to do all one wishes. Specifically, the time involved in meeting the needs of a family member with autism may leave parents with little time for their other children. Many parents feel ...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-  </article>
-</main>
-
-	<div class="divider"></div>
-
-<!-- The App Section -->
-<main class="zigzag-container">
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Top 10 Autism Studies of 2018</h1>
-      <p class="articles-on-HP">Today Autism Speaks announced its annual selection of studies that most powerfully advance its mission of enhancing lives today and accelerating a spectrum of solutions for tomorrow. Autism Speaks science leadership and Medical and Scientific Advisory Committee made the selections from...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="research.jpg" class="img-article-HP" alt="research">
-    </div>
-  </article>
-</main>	
-
-	<!-- FOOTER -->
+<!-- FOOTER -->
 	
 <footer class="footer">    
                             
@@ -432,7 +419,7 @@ We organize holistic, very flexible courses and create space and development for
                         <article class="single_footer">
                             <h4>Page link</h4>
                             <ul>
-								
+								<li><a href="index.html">Home</a></li>
                                 <li><a href="about_section.html">About Us</a></li>
                                 <li><a href="Contact.html">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank">Forum</a></li>
@@ -487,33 +474,11 @@ We organize holistic, very flexible courses and create space and development for
    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="index_custom.js"></script>
 
-        <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-  
-            /* REVIEWS */
-            
+    <!-- JAVASCRIPT DROPDOWN -->
     
-
-             var slidoIndex = 0;
-showReviews();
-
-function showReviews() {
-  var i;
-  var slido = document.getElementsByClassName("myReviews");
-  var doto = document.getElementsByClassName("doty");
-  for (i = 0; i < slido.length; i++) {
-    slido[i].style.display = "none";  
-  }
-  slidoIndex++;
-  if (slidoIndex > slido.length) {slidoIndex = 1}    
-  for (i = 0; i < doto.length; i++) {
-    doto[i].className = doto[i].className.replace(" activo", "");
-  }
-  slido[slidoIndex-1].style.display = "block";  
-  doto[slidoIndex-1].className += " activo";
-  setTimeout(showReviews, 8000); // Change image every X seconds
-}
-            
+    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        
         /* DROPDOWN */
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
@@ -532,24 +497,19 @@ for (i = 0; i < dropdown.length; i++) {
         
         /* BANNER */
         
-      var slideIndex = 0;
+        var slideIndex = 0;
 showSlides();
 
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 8000); // Change image every X seconds
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
         
         /* TABY */
@@ -571,29 +531,7 @@ function showSlides() {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
         
-			
-			/* PREKLIKNUTIE */
-			
-			
-						function openCity_2(evt, cityName) {
-	var i, tabcontent, tablinks;
-	document.getElementById("defaultOpen").click();
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-	tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i = 0; i < tablinks.length; i++) {
-	tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " active";
-
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-			        
+        
 </script>
     
     

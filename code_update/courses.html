@@ -3,15 +3,38 @@
 <head>
 <meta charset="utf-8">
 	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-	<meta content="width=device-width, initial-scale=1" name="viewport"/>
-	<title>Homepage</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Courses</title>
+<link href="main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="main.css" rel="stylesheet" type="text/css">
 	<link href="style_mob_menu.css" rel="stylesheet" type="text/css">
 	
+	
+	<script>
+	function openCity_2(evt, cityName) {
+	var i, tabcontent, tablinks;
+	document.getElementById("defaultOpen").click();
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+	
+	
+	</script>
 </head>
 
-<body>
+<body class="applynow-dots1">
     
   <!-- TOP BAR -->
     <nav class="bar">
@@ -22,7 +45,7 @@
                     <section class="radecek">
                         <ul class="navigation navigation-right list-inline pull-right">
                                 
-								<!--<li><a href="#" class="toplink">Home</a></li>-->
+								<li><a href="#" class="toplink">Home</a></li>
                                 <li><a href="about_section.html" class="toplink">About Us</a></li> <!-- class="top_new active" predtym -->
                                 <li><a href="Contact.html" class="toplink">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank" class="toplink">Forum</a></li>
@@ -273,157 +296,246 @@
 	
 	
 
-
-
-    
 	
-     <!-- BANNER -->
+	
+
   
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="education_stu.html"><img src="education_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="courses.html"><img src="courses_banner.jpg"  class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <a href="diagnostics.html"><img src="diagnostic_banner.jpg" class="bannerimg"></a>
-  <div class="text"></div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center" class="dotline">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-  <!-- Next and previous buttons -->
-
-<br>
 
 
-
-  <!-- Next and previous buttons -->
+  
+        
+    <hr class="ciara" id="zelenaciara">
     
 
-
+    <!--<hr class="ciara"> -->
+        
+  <section class="tabis-section">
     
-    <!-- ABOUT SECTION -->
-    <div class="bodkybackground">
-    <section class="about-section-homepage">
-    <h1 class="about-nadpis-homepage">About Us</h1>
-        <p class="about-text-homepage">We offer studies, counseling, interviews, specially organized youth education (STU), clarification and upgrading in relation to the labor market and education, protected employment, network groups, special educational efforts and courses for parents and professionals.
+<div class="tab" id="tab-zeleny">
+	<button class="tablinks basic-btn-in-tab" onclick="openCity(event, 'courses-aside')">Courses</button>
+  <button class="tablinks dropdown-btn">Work Ability Clarification<em class="fa fa-caret-down"></em></button>
+    <div class="dropdown-container-inside">
+    <a href="#" class="vtom" onclick="openCity(event, 'internal-aside')">Internal</a>
+    <a href="#" class="vtom" onclick="openCity(event, 'external-aside')">External</a>      
+  </div>
+         <button class="tablinks basic-btn-in-tab" onclick="openCity(event, 'business-aside')">External Business Course</button>
+	<button class="tablinks basic-btn-in-tab" onclick="openCity(event, 'particularly-aside')">Particularly Special Education<br>with Mentor and Coach</button>
+	<button class="tablinks basic-btn-in-tab" onclick="openCity(event, 'ocd-aside')">Treatment of Anxiety / OCD</button>
+  
+</div>
+
+        
+        <!-- Content -->
+        
+	  <article class="tab-texts">
+	  <!-- Courses / Enrollement -->
+	  
+<article id="courses-aside" class="tabcontent">
+  <h3 class="heading green-heading" >Courses Calendar</h3>
+            
+	
+            <p class="paragraph-inside"><strong style="cursor: pointer">Basic course on ASF - for professionals</strong><br>
+
+The purpose is to provide professionals who are new in the field of autism, with a basic knowledge of the autistic disability and educational tools.<br><br>
+
+				<strong>29-30 August 2019</strong></p><br><br>
+	
+	<span class="ciara-inside-tab"></span>
+	
+	<p class="paragraph-inside"><strong style="cursor: pointer">A ngst and isolation, including school refusal, in children, adolescents and adults with ASD - for professionals</strong><br>
+
+The aim of the course is to give professionals knowledge of factors that lead to anxiety and isolation, for example. in the form of school welfare, with normally gifted people with ASF. Focus will also be placed on factors that can prevent and reduce these conditions in order to increase the participants' opportunities for action in relation to preventing and tackling the challenges they face in everyday life.<br><br>
+
+				<strong>5th-6th September 2019</strong></p><br><br>
+	
+	<span class="ciara-inside-tab"></span>
+	
+	<p class="paragraph-inside"><strong style="cursor: pointer">CAT Workshop - Making it easier to talk about emotions - Become familiar with the KAT box's new tools and the exciting CAT web app </strong><br>
+
+The purpose of the course is that the course participants gain insight into the new CAT's tools and the KAT app's functionality and idea, so that they can use both tools as a professional or at home in the family when there is a focus on emotions and social communication. <br><br>
+
+				<strong>October 3, 2019</strong></p><br><br>
+	
+	<span class="ciara-inside-tab"></span>
+	
+	<p class="paragraph-inside"><strong style="cursor: pointer">Course on girls with an ASF diagnosis - for parents and professionals</strong><br>
+
+What should we pay particular attention to in relation to girls with autism, how can we understand their world and what can be helpful in relation to their personal and social development? Girls with autism are often diagnosed late or not at all. It can have fatal consequences for the girls and their surroundings, as they do not get the right support and understanding. We often see that the girls get other accompanying mental disorders in the form of eating disorders, anxiety and depression.<br><br>
+
+				<strong>October 10, 2019</strong></p><br><br>
+    
+	<br><br>
+	<button><a href="https://forms.gle/GTf1DxJe7orkh5SZ7" target="_blank" class="apply-inside-article" style="background: #66b330">Apply Now for Courses</a></button>
+	
+	
+</article>
+	  
+	  
+	 <!-- Work Ability Clarification -->
+	  
+	  <article id="work-aside" class="tabcontent">
+
+		  </article>
+	  
+	  <!-- Internal -->
+	  
+	  <article id="internal-aside" class="tabcontent">
+		  
+  <h3 class="heading green-heading" >Internal Work Ability Clarification Process</h3>
+		  <p class="paragraph-inside">Internal work ability clarification is primarily aimed at young citizens without or with very little work or education experience.</p>
+		  
+		  <h4 class="heading-inside">Purpose To</h4>
+		  <p class="paragraph-inside">clarify work ability in relation to education and the labor market with a view to bringing citizens closer to employment. </p> 
+		  
+		  <h4 class="heading-inside">Objectives</h4>
+		  
+		  <p class="paragraph-inside">To identify and describe resources, support needs and discretion in relation to education or the labor market. <br>
 
  
-<br><br>
-We organize holistic, very flexible courses and create space and development for the individual. We are focused on having a high level of information and putting a lot of energy into good cooperation with municipalities, relatives and others.
+Contents <br>
+Internal work ability clarification <br><br>
 
-</p>
+Two weeks intro, where the participant is involved in activities and we assess which efforts are to be put into effect. Action plan is prepared. <br><br>
 
-    </section>
-		
-		
-    <section class="review-ciara"></section>
-		
-		
-<section class="slideshow-container-reviews">
-
-<article class="myReviews fade">
-  
-
-  <div class="text">"When our boy got his autism diagnosis as a 16-year-old he was stuck in depression with eating disorder. The municipality tried several initiatives with educators and psychologists, but nothing helped. His condition worsened."<br><br><div class="numbertext">Parent</div></div>
-   
-</article>
-
-<article class="myReviews fade">
-  
-  
-  <div class="text">"The Center for Autism has embraced autistic people, like no one else, and creates a positive and constructive foundation that is essential for people with autism to develop and progress with their lives and development." <br><br><div class="numbertext">Parent</div>  </div>
-   
-</article>
-
-<article class="myReviews fade">
+- Production workshop with work tasks. For example: parcel tasks, refurbishment of furniture, food workshop.<br>
+- Internship (in group) at a company in the immediate area one morning a week with educational support. <br>
+- Social offers: Games, cooking, music<br>
+- Physical activity: Fitness, yoga and possibly. other things<br><br>
+- Individual conversations with contact person as supervisor (30 minutes per week)<br>
+- Action plan for how work and / or study skills are developed. The focus is on personal, social and professional competencies as well as challenges. <br><br>
  
-  
-  <div class="text">"It's really good that you make networking groups so that the young person can get some social relationships and experiences with other people."    <br><br><div class="numbertext">Parent</div></div>
-    
+
+When a citizen is ready, an external internship is planned. <br><br>
+
+ 
+
+If you would like more information, please contact  Solveij Steen</p>
+		  
+		  
 </article>
+	  
+	  <!-- External -->
+	  
+	  <article id="external-aside" class="tabcontent">
+  <h3 class="heading green-heading" >External Work Ability Clarification Process</h3>
+		  <p class="paragraph-inside">External work ability clarification processes have, as primary target group, slightly older citizens who can have some experience from the labor market</p>
+		  
+		  <h4 class="heading-inside">Purpose To</h4>
+		  <p class="paragraph-inside">clarify work ability in relation to education and the labor market with a view to bringing citizens closer to employment</p> 
+		  
+		  <h4 class="heading-inside">Goals</h4>
+		  
+		  <p class="paragraph-inside">Uncover and describe citizens' resources, challenges, support needs and concerns that must be taken into account in order to ensure that she / he can enter the labor market and be maintained there.</p>
+		  
+		  <h4 class="heading-inside">External clarification</h4>
+		  
+		  <p class="paragraph-inside">Business consultant is affiliated from start-up, and a number of conversations take place at the Center for Autism in order for the business consultant to get to know the participant in the best possible way before he / she comes to a internship. In the conversations there will also be attention to adjusting expectations. Support and guidance are provided for realistic choices based on strengths / challenges.<br><br>
 
+ 
 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
-  <span class="doty"></span> 
+The business consultant seeks out an internship near a participant's residence, so that the transport time becomes as short as possible and does not get exhausted already before he / she meets the company.<br><br>
 
-</section>
-        </div>
-    
-		<section class="review-ciara"></section>
-    
-	
-	<!-- ZIG ZAG LAYOUT - ARTICLES -->
-	
-	
-<main class="zigzag-container">
-	
-	
-	<h1 class="articles-heading-HP">Academic Articles</h1>
-	
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli"><b>Autism and Sexuality</b></h1>
-      <p class="articles-on-HP">Sexuality for those on the spectrum can be a heated topic. We have a hard enough time talking about appropriate behaviour and boundaries around sex and sexuality even as adults, let alone to children who might have issues around general appropriate behaviour and boundaries to begin with. Common issues around inappropriate sexual behavior are: inappropriate touching, ...</p>
-      <button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="sexualitis.jpg" alt="sexuality" class="img-article-HP">
-    </div>
-  </article>
-</main>
+ 
 
-	<div class="divider divid-hide"></div>
+When the business consultant has found a workplace that can as much as possible meet the needs and wishes of the participant, a visit to a company is agreed.<br><br>
 
-<!-- Clarity Section -->
-<main class="zigzag-container sib-hide">
-  <article class="riadok">
-    <div class="column-33">
-      <img src="siblingo.jpg" alt="siblingo" class="img-article-HP">
-    </div>
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Sibling Problems</h1>
-      <p class="articles-on-HP"> Raising a child with autism places some extraordinary demands on parents as individuals and on the family as a whole. Prime among these demands is the lack of enough hours in the day to do all one wishes. Specifically, the time involved in meeting the needs of a family member with autism may leave parents with little time for their other children. Many parents feel ...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-  </article>
-</main>
+The company is introduced to the participant and vice versa. The workplace is informed of the support needs / concerns that are known. Working hours and tasks are agreed and possibly. other frames e.g. holding breaks. If / when agreement comes into place, the internship plan is prepared and start-up is agreed.<br><br>
 
-	<div class="divider"></div>
+ 
 
-<!-- The App Section -->
-<main class="zigzag-container">
-  <article class="riadok">
-    <section class="column-66">
-      <h1 class="nadpis-v-articli">Top 10 Autism Studies of 2018</h1>
-      <p class="articles-on-HP">Today Autism Speaks announced its annual selection of studies that most powerfully advance its mission of enhancing lives today and accelerating a spectrum of solutions for tomorrow. Autism Speaks science leadership and Medical and Scientific Advisory Committee made the selections from...</p>
-		<button class="readmore"><a href="articles.html">Read More</a></button>
-    </section>
-    <div class="column-33">
-        <img src="research.jpg" class="img-article-HP" alt="research">
-    </div>
-  </article>
-</main>	
+Business consultant visits participant at workplace by appointment in order to make follow-up, adjust and adapt.</p>
+		  
+		  </article>
+	  
+	  <!-- Business Course -->
+	  
+	  <article id="business-aside" class="tabcontent">
+  <h3 class="heading green-heading">External Business Course</h3>
+		  <p class="paragraph-inside">Support for applying for a job. via internship. <br><br>
 
-	<!-- FOOTER -->
+ 
+
+These courses are targeted at citizens who are able to work, have education or have been employed, but for various reasons are out of work. <br><br>
+
+ 
+
+If you would like more information, please contact Solveij Steen </p>            
+</article>
+	  
+	  
+	   <!-- Particularly -->
+	  
+	  <article id="particularly-aside" class="tabcontent">
+  <h3 class="heading green-heading">Particularly Special Educational Mentor and Coach</h3>
+		  <p class="paragraph-inside">These courses are usually offered to citizens who are late diagnosed and have experience from the labor market. It is citizens with a lot of adversity in the baggage and perhaps have been in other clarifying / activating processes earlier.<br><br>
+
+ 
+
+The special educational coaching courses may also be relevant for younger citizens who are deemed to be far from education and the labor market or who need an extra educational input to be able to complete an education or work program. <br><br>
+
+ 
+
+The goal of the special educational courses varies according to the challenges the individual participant has - eg:<br><br>
+
+- Psycho-educational conversation in relation to personal challenges related to education or jobs<br>
+- Targeted conversations in relation to the labor market in general. The focus will be on what it takes for social tools and coping strategies to enable the citizen to be in a workplace<br>
+- Special pedagogical mentor / coach will be associated with the number of hours that have been agreed with the individual municipality.<br><br>
+The guidance / support is basically at the Center for Autism in Herlev, but can take place in the participant's home, at the workplace or at the place of education.<br>
+
+The course can be based on a pedagogical function examination according to agreement with the municipality.</p>            
+</article>
+	  
+	  
+	  <!-- Treatment of anxiety / OCD -->
+	  
+	  <div id="ocd-aside" class="tabcontent">
+  <h3 class="heading green-heading">Treatment of Anxiety and / or OCD for People with ASF</h3>
+		  
+		  <h4 class="heading-inside">Objective</h4>
+            
+            <p class="paragraph-inside">The overall purpose of the treatment is to reduce the level of anxiety / OCD so that it minimizes the person's function and development in everyday life. <br><br>
+
+It is a sub-goal that the person gets an increased insight into which factors lead to and maintains the anxiety and / or OCD symptoms.<br>
+
+ 
+
+It is another sub-goal that the person, together with the therapist, works purposefully on factors that can directly or indirectly lead to a reduction of anxiety and / or the OCD symptoms. Including that the person gets insight into different options and strategies for better handling of symptoms and situations that cause anxiety and / or OCD.<br><br>
+
+It is a sub-goal that the person in his or her everyday life tests and exercises concrete opportunities for action in specific situations in everyday life in relation to mastering and over time reducing symptoms of anxiety and / or OCD.</p>
+            
+            <h4 class="heading-inside">Target group</h4>
+            
+            <p class="paragraph-inside">Children, adolescents and adults, usually gifted with ASF. Parents or support contact persons must be prepared to participate in all or part of the course.</p>
+		  
+		  <h4 class="heading-inside">Method</h4>
+            
+            <p class="paragraph-inside">The course of 
+treatment will be individually adapted and based on a cognitive, behavioral approach with inspiration from various manual-based treatment programs, such as Cool Kids, Chilled and Dialectical Behavioral Therapy. Some courses may include the processing of past negative experiences if this is considered relevant. </p>
+		  
+		  <h4 class="heading-inside">Duration</h4>
+		  
+		  <p class="paragraph-inside">The course will generally have a duration of 15 sessions of 45 minutes. The first session will consist of a visiting / clarifying meeting with the person with ASF, the paying agency and the relative (s) or professional (s) who will support the person in the course of treatment. At the other sessions, the person participates with ASF, possibly. with full or partial participation of the person who is to support the person in the course of treatment.<br><br>
+
+Initially, the sessions will usually be held once a week for later on every 2-3 weeks. week. At the end of the process, there may be months of follow-up with a view to evaluation as well as preventing any future deterioration of the condition.<br><br>
+
+In some cases, there will be a need for an extension of the course. This assessment is made by the therapist after 10-12 sessions and is given as a recommendation to the paying agency, which takes a final position on the extension of the course. If at the beginning or during the process it is assessed by the practitioner that the person either does not profit or will not profit from the treatment, this is communicated to the person himself and the paying agency, and the course is terminated. </p>
+		  
+</div>
+	  
+	  
+	  
+</article>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+	  </section>
+	  
+<!-- FOOTER -->
 	
 <footer class="footer">    
                             
@@ -432,7 +544,7 @@ We organize holistic, very flexible courses and create space and development for
                         <article class="single_footer">
                             <h4>Page link</h4>
                             <ul>
-								
+								<li><a href="index.html">Home</a></li>
                                 <li><a href="about_section.html">About Us</a></li>
                                 <li><a href="Contact.html">Contact</a></li>
                                 <li><a href="https://www.reddit.com/" target="_blank">Forum</a></li>
@@ -487,33 +599,12 @@ We organize holistic, very flexible courses and create space and development for
    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="index_custom.js"></script>
 
-        <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-  
-            /* REVIEWS */
-            
     
-
-             var slidoIndex = 0;
-showReviews();
-
-function showReviews() {
-  var i;
-  var slido = document.getElementsByClassName("myReviews");
-  var doto = document.getElementsByClassName("doty");
-  for (i = 0; i < slido.length; i++) {
-    slido[i].style.display = "none";  
-  }
-  slidoIndex++;
-  if (slidoIndex > slido.length) {slidoIndex = 1}    
-  for (i = 0; i < doto.length; i++) {
-    doto[i].className = doto[i].className.replace(" activo", "");
-  }
-  slido[slidoIndex-1].style.display = "block";  
-  doto[slidoIndex-1].className += " activo";
-  setTimeout(showReviews, 8000); // Change image every X seconds
-}
-            
+    <!-- JAVASCRIPT DROPDOWN -->
+    
+    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        
         /* DROPDOWN */
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
@@ -532,24 +623,19 @@ for (i = 0; i < dropdown.length; i++) {
         
         /* BANNER */
         
-      var slideIndex = 0;
+        var slideIndex = 0;
 showSlides();
 
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 8000); // Change image every X seconds
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
         
         /* TABY */
@@ -571,29 +657,8 @@ function showSlides() {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
         
-			
-			/* PREKLIKNUTIE */
-			
-			
-						function openCity_2(evt, cityName) {
-	var i, tabcontent, tablinks;
-	document.getElementById("defaultOpen").click();
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-	tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i = 0; i < tablinks.length; i++) {
-	tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " active";
-
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-			        
+        
+        
 </script>
     
     
